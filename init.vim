@@ -18,5 +18,14 @@ call plug#end()
 
 let g:deoplete#enable_at_startup = 1
 
-"This unsets the "last search pattern" register by hitting return
+" This unsets the "last search pattern" register by hitting return
 nnoremap <CR> :noh<CR><CR>
+
+" keymap for escaping NVIM Terminal mode to Normal mode
+tnoremap <Esc> <C-\><C-n>
+
+" Switching between split windows
+tnoremap <c-w>h <c-\><c-n><c-w>h
+tnoremap <c-w>j <c-\><c-n><c-w>j
+tnoremap <c-w>k <c-\><c-n><c-w>k
+tnoremap <c-w>l <c-\><c-n><c-w>l
