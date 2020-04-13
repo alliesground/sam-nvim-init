@@ -32,3 +32,15 @@ tnoremap <c-w>l <c-\><c-n><c-w>l
 
 " highlight color
 hi Search cterm=NONE ctermfg=black ctermbg=yellow
+
+" Split into a new terminal instance (from terminal mode)
+tnoremap <C-w>s <C-\><C-n><C-w><C-s> :terminal <CR>
+tnoremap <C-w>v <C-\><C-n><C-w><C-v> :terminal <CR>
+
+" Split into a new terminal instance (from nvim normal mode)
+nnoremap <C-w>s <C-w>s :terminal <CR>
+nnoremap <C-w>v <C-w>v :terminal <CR>
+
+set splitbelow
+set splitright
+
