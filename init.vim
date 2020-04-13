@@ -41,6 +41,9 @@ tnoremap <C-w>v <C-\><C-n><C-w><C-v> :terminal <CR>
 nnoremap <C-w>s <C-w>s :terminal <CR>
 nnoremap <C-w>v <C-w>v :terminal <CR>
 
+" Split new terminal instance at bottom (from nvim normal mode)
+nnoremap <C-w>S <C-w>v <C-w>J :terminal <CR>
+
 set splitbelow
 set splitright
 
