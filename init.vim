@@ -45,7 +45,7 @@ nnoremap <C-w>v <C-w>v :terminal <CR>
 nnoremap <C-w>S <C-w>v <C-w>J :terminal <CR>
 
 " Mapping for Nerdtreefocus cmd
-nnoremap <leader>p :NERDTreeFocus <CR>
+nnoremap <leader>f :NERDTreeFocus <CR>
 
 set splitbelow
 set splitright
