@@ -44,6 +44,9 @@ nnoremap <C-w>v <C-w>v :terminal <CR>
 " Split new terminal instance at bottom (from nvim normal mode)
 nnoremap <C-w>S <C-w>v <C-w>J :terminal <CR>
 
+" Mapping for Nerdtreefocus cmd
+nnoremap <leader>p :NERDTreeFocus <CR>
+
 set splitbelow
 set splitright
 
