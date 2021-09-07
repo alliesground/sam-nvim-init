@@ -49,6 +49,7 @@ nnoremap <leader>f :NERDTreeFocus <CR>
 
 set splitbelow
 set splitright
+set cursorline
 
 " <TAB>: completion.
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
